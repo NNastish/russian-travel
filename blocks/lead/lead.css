@@ -1,9 +1,11 @@
 .lead {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 984px;
     height: 1005px;
-    padding-left: 148px;
-    padding-top: 136px; 
+    border: 2px solid orange;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
 }

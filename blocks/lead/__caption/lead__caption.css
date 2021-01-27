@@ -3,7 +3,8 @@
     height: 14px;
     font-size: 10px;
     line-height: 14px;
-    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin: 0;
+    padding-top: 8px;
 }

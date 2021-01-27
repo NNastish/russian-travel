@@ -1,10 +1,11 @@
 .page {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 52px 1005px 429px 671px 3392px 740px 18px;
-    gap: 92px;
-    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
     min-height: 6875px;
     background-color: #2A2C2F;
-    margin: auto;
+    margin: 0;
+    padding-left: 48px;
+    padding-right: 48px;
 }
