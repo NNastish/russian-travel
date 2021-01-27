@@ -1,6 +1,10 @@
 .page {
-max-width: 1280px;
-min-height: 6875px;
-background-color: #2A2C2F;
-margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 52px 1005px 429px 671px 3392px 740px 18px;
+    gap: 92px;
+    max-width: 1280px;
+    min-height: 6875px;
+    background-color: #2A2C2F;
+    margin: auto;
 }
