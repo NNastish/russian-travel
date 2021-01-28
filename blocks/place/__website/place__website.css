@@ -1,5 +1,6 @@
 .place__website {
-    width: 456px;
-    height: 46px;
-    border: 1px solid blueviolet;
+border: 1px solid blueviolet;
+max-width: 456px;
+height: 46px;
+align-self: end;
 }
