@@ -1,6 +1,9 @@
 .header__lang-link_en {
     width: 30px;
     height: 28px;
+    font-family: Inter-Regular;
+    font-weight: 400;
+    font-style: normal;
     font-size: 24px;
     text-decoration: none;
     color: #FFFFFF;

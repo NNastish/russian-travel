@@ -1,6 +1,8 @@
 .place__title {
     min-width: 460px;
     min-height: 152px;
+    font-family: Inter-Black;
+    font-style: normal;
     font-size: 72px;
     line-height: 76px;
     color: white;

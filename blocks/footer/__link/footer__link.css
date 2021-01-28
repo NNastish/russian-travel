@@ -1,5 +1,10 @@
 .footer__link {
 color: white;
+text-decoration: none;
 margin: 0;
 padding-right: 18px;
+font-family: Inter-Regular;
+font-style: normal;
+font-size: 16px;
+line-height: 18px;
 }
