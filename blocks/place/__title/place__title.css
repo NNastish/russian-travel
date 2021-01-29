@@ -1,11 +1,10 @@
 .place__title {
     min-width: 460px;
-    min-height: 152px;
+    align-self: end;
     font-family: Inter-Black;
     font-style: normal;
     font-size: 72px;
     line-height: 76px;
     color: white;
-    border: 1px solid blueviolet;
     margin: 0;
 }

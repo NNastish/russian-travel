@@ -1,6 +1,6 @@
 .places {
-    border: 2px solid orange;
+    min-width: 988px;
     margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 144px;
+    margin-right: 148px;
 }

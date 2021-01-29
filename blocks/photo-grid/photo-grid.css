@@ -3,6 +3,8 @@
     grid-template-columns: 284px 284px 284px 284px;
     grid-template-rows: 213px  213px  213px;
     gap: 16px;
-    border: 2px solid orange;
+    min-width: 1184px;
     margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
