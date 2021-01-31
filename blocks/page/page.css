@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    min-height: 6875px;
     background-color: #2A2C2F;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Inter-Regular', 'Inter-Bold', 'Inter-Black';
+    box-sizing: border-box;
 }

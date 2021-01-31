@@ -7,10 +7,8 @@
     font-weight: 900;
     width: 560px;
     height: 152px;
+    text-decoration: none;
     text-align: center;
     padding-top: 245px;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    position: relative;
+    margin: 0;
 }
