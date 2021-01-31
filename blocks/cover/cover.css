@@ -1,7 +1,15 @@
 .cover {
-    max-width: 1184px;
-    max-height: 740px;
+    /* max-width: 1184px;
+    max-height: 740px; */
+    min-width: 100%;
+    height: 740px;
     background-image: url(../../image/cover-trains.jpg);
     background-size: cover;
     margin: 0 auto;
+    border: 1px solid rgb(241, 145, 20);
+}
+@media (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+    }
 }

@@ -7,8 +7,14 @@ font-family: Inter-Regular;
 font-style: normal;
 font-size: 16px;
 line-height: 18px;
+border: 1px solid rgb(20, 241, 204);
 }
 
 .footer__link:hover {
     opacity: .5;
+}
+@media screen (max-width: 768px) {
+    .footer__link {
+        font-size: 16px;
+    }
 }

@@ -5,4 +5,11 @@
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
+    padding-right: 48px;
+    border: 1px solid rgb(20, 241, 204);
+}
+@media screen (max-width: 768px) {
+    .footer__copyright {
+        padding-left: 24px;
+    }
 }

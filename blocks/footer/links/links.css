@@ -1,4 +1,11 @@
 .links {
     display: flex;
     flex-direction: row;
+    padding-left: 48px;
+    border: 1px solid rgb(20, 241, 204);
+}
+@media screen (max-width: 768px) {
+    .links {
+        padding-left: 24px;
+    }
 }
