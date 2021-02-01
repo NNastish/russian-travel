@@ -1,8 +1,7 @@
 .intro__list {
     list-style: none;
     max-width: 690px;
-    font-family: Inter-Bold;
-    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;

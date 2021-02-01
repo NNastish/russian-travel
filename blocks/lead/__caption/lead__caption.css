@@ -1,8 +1,8 @@
 .lead__caption {
     max-width: 100%;
-    font-family: Inter-Regular;
     font-size: 10px;
     line-height: 14px;
+    font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     padding-top: 8px;

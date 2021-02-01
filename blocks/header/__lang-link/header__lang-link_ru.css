@@ -1,9 +1,6 @@
 .header__lang-link_ru {
-    width: 30px;
-    height: 28px;
-    font-family: Inter-Regular;
+    max-width: 30px;
     font-weight: 400;
-    font-style: normal;
     font-size: 24px;
     text-decoration-line: underline;
     color: #ffffff;
@@ -12,7 +9,6 @@
 @media screen and (max-width: 320px) {
     .header__lang-link_ru {
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

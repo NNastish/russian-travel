@@ -1,6 +1,10 @@
 .cover {
     width: 1188px;
     height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../../image/cover-trains.jpg);
     background-size: cover;
     margin: 0, auto;
@@ -8,6 +12,7 @@
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
+        height: 640px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -19,11 +24,12 @@
 @media screen and (max-width: 452px) {
     .cover {
         width: 420px;
-        height: 250px;
+        height: 300px;
     }
 }
 @media screen and (max-width: 320px) {
     .cover {
         max-width: 320px;
+        height: 200px;
     }
 }
