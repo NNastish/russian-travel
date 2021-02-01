@@ -1,9 +1,30 @@
 .footer {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    width: 100%;
+    width: 1184px;
     padding-top: 92px;
     padding-bottom: 24px;
     border: 1px solid rgb(20, 241, 204);
+}
+@media (max-width: 1024px) {
+    .footer {
+        max-width: 1024px;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+        max-width: 768px;
+    }
+}
+@media (max-width: 452px) {
+    .footer {
+        max-width: 425px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 320px) {
+    .footer {
+        max-width: 320px;
+    }
 }

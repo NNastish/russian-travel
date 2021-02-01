@@ -1,6 +1,6 @@
 .cover__subtitle {
     color: white;
-    width: 360px;
+    max-width: 360px;
     height: 66px;
     font-family: Inter-Regular;
     font-weight: 400;
@@ -10,4 +10,10 @@
     margin: 0;
     padding-top: 32px;
     border: 1px solid rgb(241, 145, 20);
+}
+@media (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

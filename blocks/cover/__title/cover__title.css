@@ -5,11 +5,18 @@
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
-    width: 560px;
-    height: 152px;
+    max-width: 560px;
     text-decoration: none;
     text-align: center;
     padding-top: 245px;
     margin: 0;
     border: 1px solid rgb(241, 145, 20);
+}
+@media (max-width: 425px) {
+    .cover__title {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 33px;
+
+    }
 }

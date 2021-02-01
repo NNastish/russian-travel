@@ -1,6 +1,6 @@
 .places {
-    width: 986px;
+    max-width: 984px;
     padding-top: 92px;
-    /* padding-left: 144px;
-    padding-right: 148px; */
+    padding-bottom: 92px;
+    margin: 0 auto;
 }
