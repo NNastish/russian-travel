@@ -1,28 +1,26 @@
 .place {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); */
     grid-template-columns: 1fr 1fr;
     gap: 48px 40px;
     max-width: 984px;
-    border: 1px solid rgb(241, 20, 112);
     list-style: none;
     margin: 0;
     padding: 0;
     padding-bottom: 80px;
 }
-@media screen and (max-width: 1024px) {
-    .place {
-        grid-template-columns: 440px 1fr;
-        grid-column-gap: 32px;
-    }
+.place:last-child {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 340px 1fr;
-        margin-top: 76px;
-        gap: 28px;
+        padding-bottom: 76px;
+        gap: 48px 28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place:last-child {
+        padding-bottom: 0;
     }
 }
 
@@ -36,3 +34,18 @@
         padding: 0;
     }
 }
+@media screen and (max-width: 320px) {
+    .place {
+        gap: 32px;
+        max-width: 320px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place:last-child {
+        padding-bottom: 0;
+    }
+}
+

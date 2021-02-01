@@ -5,17 +5,17 @@
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
-    /* padding-right: 48px; */
-    border: 1px solid rgb(20, 241, 204);
 }
-@media screen (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .footer__copyright {
-        padding-left: 24px;
+        max-width: 425px;
+        line-height: 14px;
+        padding-left: 16px;
     }
 }
-@media screen (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .footer__copyright {
-        line-height: 14px;
-        padding-top: 48px;
+        max-width: 320px;
+        padding-left: 16px;
     }
 }

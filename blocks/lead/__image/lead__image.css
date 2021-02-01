@@ -3,5 +3,18 @@
     padding-top: 64px;
     object-fit: cover;
     max-width: 100%;
-    border: 1px solid springgreen;
+}
+@media screen and (max-width: 425px) {
+    .lead__image {
+        width: 425px;
+        height: 305px;
+        padding-top: 32px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__image {
+        width: 320px;
+        height: 200px;
+        padding-top: 40px;
+    }
 }

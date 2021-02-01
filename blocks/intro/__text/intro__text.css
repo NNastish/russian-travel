@@ -3,19 +3,22 @@
     flex-direction: column;
     justify-content: left;
     max-width: 690px;
-    /* height: 208px; */
     font-family: Inter-Regular;
     font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
+    line-height: 26px;
+    color: #ffffff;
     margin: 0;
     padding-top: 40px;
-    border: 1px solid rgb(200, 241, 20);
+}
+@media screen and (max-width: 768px) {
+    .intro__text {
+        line-height: 26px;
+    }
 }
 @media screen and (max-width: 425px) {
     .intro__text {
         max-width: 425px;
         font-size: 16px;
-        line-height: 1.09;
+        line-height: 24px;
     }
 }

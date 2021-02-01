@@ -5,9 +5,15 @@
     font-style: normal;
     font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
     padding-top: 33px;
     padding-left: 0;
-    border: 1px solid rgb(200, 241, 20);
+}
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 768px;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }

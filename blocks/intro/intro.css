@@ -5,5 +5,23 @@
     padding-top: 92px;
     padding-left: 0;
     margin: 0;
-    border: 1px solid rgb(200, 241, 20);
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .intro {
+        padding-top: 45px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        padding-top: 64px;
+    }
 }
