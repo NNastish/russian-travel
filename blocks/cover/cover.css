@@ -1,5 +1,5 @@
 .cover {
-    width: 1188px;
+    width: 100%;
     height: 740px;
     display: flex;
     flex-direction: column;
@@ -7,14 +7,19 @@
     justify-content: center;
     background-image: url(../../image/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     margin: 0, auto;
 }
 @media screen and (max-width: 1024px) {
-    .cover {
-        max-width: 1024px;
-        height: 640px;
+    .footer {
+        max-width: 928px;
+        padding-top: 88px;
+        padding-left: 48px;
+        padding-right: 48px;
+        box-sizing: border-box;
     }
 }
+
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 768px;
