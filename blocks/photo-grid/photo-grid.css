@@ -1,11 +1,12 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     gap: 16px 16px;
-    width: 100%;
+    max-width: 1186px;
     padding-top: 92px;
-    margin-left: 48px;
-    margin-right: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin: 0;
     align-items: end;
     justify-self: center;
 }
@@ -20,8 +21,6 @@
 @media screen and (max-width: 425px) {
     .photo-grid {
         padding-top: 64px;
-        padding-left: 0;
-        padding-right: 0;
         grid-gap: 12px;
     }
 }

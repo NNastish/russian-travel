@@ -1,0 +1,12 @@
+.header-list {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* @media screen and (max-width: 576px) {
+    .list-links {
+      align-items: center;
+    }
+  } */     /*test*/

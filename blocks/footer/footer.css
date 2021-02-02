@@ -25,16 +25,11 @@
     .footer {
         max-width: 425px;
         padding-top: 64px;
-        padding-left: 0;
-        padding-right: 0;
         flex-direction: column;
     }
 }
 @media screen and (max-width: 320px) {
     .footer {
         max-width: 320px;
-        padding-top: 64px;
-        padding-left: 0;
-        padding-right: 0;
     }
 }

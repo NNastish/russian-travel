@@ -15,12 +15,6 @@
         height: 340px;
     }
 }
-@media screen and (max-width: 425px) {
-    .place__image {
-        max-width: 340px;
-        height: 340px;
-    }
-}
 @media screen and (max-width: 320px) {
     .place__image {
         max-width: 320px;
