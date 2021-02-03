@@ -15,7 +15,7 @@
         padding-right: 64px;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
     .lead__subtitle {
         padding-top: 16px;
         padding-left: 16px;
@@ -31,11 +31,3 @@
     }
 }
 
-
-  
-  /* @media screen and (max-width: 576px) {
-    .lead__subtitle {
-      font-size: 16px;
-      margin: 16px auto 0;
-    }
-  } */

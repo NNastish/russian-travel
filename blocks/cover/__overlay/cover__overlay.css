@@ -1,67 +1,48 @@
 .cover__overlay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    min-height: 740px;
-    background-color: rgba(42, 44, 47, 0.3);
-    text-decoration: none;
-    margin: 0;
-    border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 740px;
+  background-color: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  margin: 0;
 }
 .cover__overlay:hover {
-    background-color: rgba(42, 44, 47, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);
 }
-/* @media screen and (max-width: 768px) {
-    .cover__overlay {
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-@media screen and (max-width: 452px) {
-    .cover__overlay {
-        max-width: 420px;
-        min-height: 300px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .cover__overlay {
-        max-width: 320px;
-        min-height: 200px;
-    }
-} */
 
 @media screen and (max-width: 1024px) {
-    .cover__overlay {
-     max-width: 1024px;
-    min-height: 690px;
-    }
+  .cover__overlay {
+      max-width: 1024px;
+      min-height: 690px;
   }
-  
-  @media screen and (max-width: 890px) {
-    .cover__overlay {
-    max-width: 890px;
+}
+
+@media screen and (max-width: 890px) {
+  .cover__overlay {
+      max-width: 890px;
       min-height: 560px;
-    }
   }
-  
-  @media screen and (max-width: 768px) {
-    .cover__overlay {
-        max-width: 768px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+      max-width: 768px;
       min-height: 480px;
-    }
   }
-  
-  @media screen and (max-width: 576px) {
-    .cover__overlay {
-        max-width: 576px;
+}
+
+@media screen and (max-width: 576px) {
+  .cover__overlay {
+      max-width: 576px;
       min-height: 340px;
-    }
   }
-  
-  @media screen and (max-width: 320px) {
-    .cover__overlay {
-        max-width: 320px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+      max-width: 320px;
       min-height: 200px;
-    }
   }
+}

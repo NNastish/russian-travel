@@ -1,5 +1,5 @@
 .header-list__item {
-margin-right: 18px;
+    margin-right: 18px;
 }
 .header-list__item:last-child {
     margin-right: 0;

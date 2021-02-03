@@ -1,13 +1,13 @@
 .footer__line {
-    margin-right: 18px;
-    list-style: none;
+  margin-right: 18px;
+  list-style: none;
 }
 .footer__line:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 @media screen and (max-width: 320px) {
-    .footer__line {
+  .footer__line {
       margin-bottom: 32px;
-    }
   }
+}
   

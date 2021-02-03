@@ -11,18 +11,16 @@
     padding-bottom: 0;
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid blue;
 }
-   
+
 @media screen and (max-width: 768px) {
     .header {
-      width: 720px;
-      padding-right: 0;
-      padding-left: 0;
+        width: 720px;
+        padding-right: 0;
+        padding-left: 0;
     }
 }
-  
-}
+
 @media screen and (max-width: 425px) {
     .header {
         width: 425px;
@@ -33,3 +31,4 @@
         width: 288px;
     }
 }
+
