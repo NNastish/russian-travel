@@ -1,12 +1,13 @@
 .intro {
     align-self: flex-start;
     list-style: none;
-    max-width: 984px;
+    max-width: 690px;
     padding-top: 92px;
     padding-left: 148px;
     padding-right: 148px;
     padding-bottom: 0;
     margin: 0 auto;
+    border: 1px solid blue;
 }
 @media screen and (max-width: 768px) {
     .intro {
