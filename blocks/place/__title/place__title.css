@@ -14,9 +14,13 @@
 }
 @media screen and (max-width: 768px) {
     .place__title {
-        max-width: 340px;
-        font-size: 42px;
-        line-height: 46px;
+        font-size: 52px;
+        line-height: 56px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .place__title {
+        align-self: flex-start;
     }
 }
 @media screen and (max-width: 576px) {

@@ -32,11 +32,23 @@
       min-height: 480px;
   }
 }
+@media screen and (max-width: 750px) {
+  .cover__overlay {
+      max-width: 750px;
+      min-height: 452px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .cover__overlay {
       max-width: 576px;
       min-height: 340px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cover__overlay {
+      max-width: 425px;
+      min-height: 240px;
   }
 }
 
