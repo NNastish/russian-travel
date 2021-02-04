@@ -6,7 +6,11 @@
     width: 100%;
     padding-top: 92px;
     margin: 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-right: 0;
     align-items: end;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 1024px) {
     .photo-grid {
@@ -43,6 +47,7 @@
         padding-right: 16px;
     }
 }
+
 
 
 
