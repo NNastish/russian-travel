@@ -34,7 +34,7 @@
         max-width: 750px;
     }
 }
-}
+
 @media screen and (max-width: 650px) {
     .place {
     max-width: 650px;
