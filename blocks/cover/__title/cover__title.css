@@ -6,26 +6,13 @@
     max-width: 560px;
     text-decoration: none;
     text-align: center;
-    padding-top: 245px;
+    padding-bottom: 32px;
     margin: 0;
 }
 @media screen and (max-width: 768px) {
     .cover__title {
-        padding-top: 115px;
-        padding-left: 104px;
-        padding-right: 104px;
-    }
-}
-@media screen and (max-width: 576px) {
-    .cover__title {
-        /* padding-top: 115px;
-        padding-left: 104px;
-        padding-right: 104px; */
-        font-size: 52px;
-        line-height: 54px;
-        padding-top: 53px;
-        padding-left: 36px;
-        padding-right: 36px;
+        font-size: 9.38vw;
+        line-height: 9.90vw;
     }
 }
 
@@ -33,9 +20,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        padding-top: 33px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-bottom: 16px;
     }
 }
-

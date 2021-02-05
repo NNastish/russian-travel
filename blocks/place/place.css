@@ -35,8 +35,7 @@
 
 @media screen and (max-width: 650px) {
     .place {
-    max-width: 650px;
-
+        max-width: 650px;
     }
 }
 @media screen and (max-width: 320px) {
@@ -47,3 +46,4 @@
         padding-right: 0;
     }
 }
+

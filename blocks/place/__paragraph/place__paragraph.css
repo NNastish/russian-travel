@@ -5,6 +5,10 @@
     line-height: 29px;
     font-weight: 400;
     margin: 0;
+    padding-bottom: 26px;
+}
+.place__paragraph:last-child {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
