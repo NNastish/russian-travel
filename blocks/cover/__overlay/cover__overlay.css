@@ -16,47 +16,41 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-      /* max-width: 1024px; */
-      min-height: 690px;
+      min-height: 640px;
   }
 }
 
 @media screen and (max-width: 890px) {
   .cover__overlay {
-      /* max-width: 890px; */
       min-height: 560px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-      /* max-width: 768px; */
       min-height: 480px;
   }
 }
 @media screen and (max-width: 750px) {
   .cover__overlay {
-      /* max-width: 750px; */
       min-height: 452px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .cover__overlay {
-      /* max-width: 576px; */
       min-height: 340px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover__overlay {
-      /* max-width: 425px; */
       min-height: 240px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-      /* max-width: 320px; */
       min-height: 200px;
   }
 }
+
