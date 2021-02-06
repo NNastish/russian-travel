@@ -14,14 +14,6 @@
     -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-    .page {
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .page {
         padding-top: 28px;
@@ -39,3 +31,4 @@
         padding-left: 0;
     }
 }
+

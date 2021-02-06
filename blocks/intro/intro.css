@@ -8,14 +8,19 @@
 @media screen and (max-width: 1024px) {
     .intro {
         max-width: 690px;
-        padding: 92px 286px 0 48px;
+        padding-top: 92px;
+        padding-left: 0;
+        padding-right: 238px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
-        padding: 88px 24px 0 24px;
+        padding-top: 88px;
+        padding-right: 0;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -28,3 +33,4 @@
         max-width: 288px;
     }
 }
+
