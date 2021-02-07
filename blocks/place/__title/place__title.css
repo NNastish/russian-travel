@@ -24,7 +24,7 @@
         align-self: center;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
     .place__title {
         align-self: flex-start;
         max-width: 288px;
@@ -34,6 +34,7 @@
         padding-right: 16px;
     }
 }
+
 
 
 
