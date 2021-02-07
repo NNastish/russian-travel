@@ -21,11 +21,12 @@
 }
 @media screen and (max-width: 750px) {
     .place__title {
-        align-self: flex-start;
+        align-self: center;
     }
 }
 @media screen and (max-width: 576px) {
     .place__title {
+        align-self: flex-start;
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
@@ -33,5 +34,6 @@
         padding-right: 16px;
     }
 }
+
 
 
